@@ -1,0 +1,15 @@
+-- View all filtered data
+SELECT * FROM pipeline_db.filtered_data;
+
+-- View only names
+SELECT name FROM pipeline_db.filtered_data;
+
+-- Filter by age
+SELECT * FROM pipeline_db.filtered_data
+WHERE age > 22;
+
+-- Count total records
+SELECT COUNT(*) FROM pipeline_db.filtered_data;
+
+-- Calculate average age
+SELECT AVG(age) FROM pipeline_db.filtered_data;
