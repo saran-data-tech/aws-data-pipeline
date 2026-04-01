@@ -5,9 +5,9 @@ A serverless ETL data pipeline using AWS S3 and Lambda.
 Raw data is automatically processed and analyzed without any servers.
 
 ## Architecture
-```
+
 data.csv → S3 Input Bucket → Lambda 1 → filtered_data.csv → Lambda 2 → final_report.csv
-```
+
 
 ## AWS Services Used
 - **S3** - Store raw and processed data
@@ -28,3 +28,13 @@ data.csv → S3 Input Bucket → Lambda 1 → filtered_data.csv → Lambda 2 →
 - AWS IAM permissions
 - Chained Lambda functions
 - Cloud data processing
+
+## Data Cleaning (Python)
+Cleaned raw data using Pandas library.
+
+### Techniques used:
+- Removed missing values
+- Filled empty numbers with average
+- Removed duplicate rows
+- Fixed inconsistent text
+- Reset index
