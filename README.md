@@ -1,4 +1,4 @@
-# AWS Serverless Data Pipeline 🚀
+# AWS Serverless Data Pipeline 
 
 ## What I Built
 A serverless ETL data pipeline using AWS S3 and Lambda.
